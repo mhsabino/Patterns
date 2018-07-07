@@ -15,6 +15,8 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'devise'
 gem "haml-rails", "~> 1.0"
+# observer
+gem 'everett'
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.7'
