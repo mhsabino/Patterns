@@ -17,6 +17,7 @@ gem 'devise'
 gem "haml-rails", "~> 1.0"
 # observer
 gem 'everett'
+gem 'sidekiq', '< 6'
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.7'
